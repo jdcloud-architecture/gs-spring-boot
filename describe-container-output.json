@@ -1,0 +1,80 @@
+{
+    "error": null, 
+    "result": {
+        "container": {
+            "tty": true, 
+            "vpcId": "vpc-jr80yvv7s5", 
+            "image": "jdcloud-demo-cn-north-1.jcr.service.jdcloud.com/centos-java:latest", 
+            "elasticIpAddress": "", 
+            "subnetId": "subnet-u9xo0bo7ru", 
+            "az": "cn-north-1a", 
+            "instanceType": "g.n2.medium", 
+            "description": "", 
+            "envs": null, 
+            "hostAliases": null, 
+            "hostname": "ymq-nc005", 
+            "workingDir": "", 
+            "charge": {
+                "chargeStartTime": "2018-09-28T02:16:40Z", 
+                "chargeStatus": "normal", 
+                "chargeMode": "postpaid_by_duration"
+            }, 
+            "secret": "", 
+            "rootVolume": {
+                "category": "cloud", 
+                "mountPath": "/", 
+                "autoDelete": true, 
+                "fsType": "xfs", 
+                "cloudDisk": {
+                    "status": "in-use", 
+                    "name": "ymq-nc005", 
+                    "diskType": "ssd", 
+                    "diskSize": 10, 
+                    "az": "cn-north-1a", 
+                    "createTime": "2018-09-28 10:16:41", 
+                    "diskId": "vol-tgvak44z7y", 
+                    "description": ""
+                }, 
+                "readOnly": false
+            }, 
+            "launchTime": "2018-09-28 10:17:24", 
+            "privateIpAddress": "10.0.4.36", 
+            "status": "running", 
+            "containerId": "c-cc15rf1saw", 
+            "elasticIpId": "", 
+            "args": null, 
+            "logConfiguration": null, 
+            "reason": "taskCompleted", 
+            "dataVolumes": null, 
+            "name": "ymq-nc005", 
+            "primaryNetworkInterface": {
+                "deviceIndex": 1, 
+                "networkInterface": {
+                    "macAddress": "fa:16:3e:04:b7:b9", 
+                    "vpcId": "vpc-jr80yvv7s5", 
+                    "description": "", 
+                    "networkInterfaceId": "port-h3fzempgi2", 
+                    "secondaryIps": null, 
+                    "sanityCheck": false, 
+                    "securityGroups": [
+                        {
+                            "groupName": "默认安全组开放全部端口", 
+                            "groupId": "sg-ip9ekh5jan"
+                        }
+                    ], 
+                    "subnetId": "subnet-u9xo0bo7ru", 
+                    "primaryIp": {
+                        "elasticIpAddress": "", 
+                        "elasticIpId": "", 
+                        "privateIpAddress": "10.0.4.36"
+                    }
+                }, 
+                "attachTime": "", 
+                "autoDelete": true, 
+                "attachStatus": ""
+            }, 
+            "command": null
+        }
+    }, 
+    "request_id": "benqnd2f6ks4k1ie734u4gos2eewo37g"
+}

@@ -1,0 +1,27 @@
+{
+    "maxCount": 1,
+    "regionId": "cn-north-1",
+    "containerSpec": {
+        "instanceType": "g.n2.medium",
+        "az": "cn-north-1a",
+        "name": "ymq-nc010",
+        "image": "jdcloud-demo-cn-north-1.jcr.service.jdcloud.com/centos-java:latest",
+        "command": null,
+        "tty": true,
+        "rootVolume": {
+            "category": "cloud",
+            "cloudDiskSpec": {
+                "az": "cn-north-1a",
+                "name": "ymq-nc010",
+                "diskType": "ssd",
+                "diskSizeGB": 10
+            }
+        },
+        "primaryNetworkInterface": {
+            "networkInterface": {
+                "subnetId": "subnet-u9xo0bo7ru",
+                "az": "cn-north-1a"
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "regionId": "cn-north", 
+    "containerSpec": {
+        "tty": "true", 
+        "description": ""
+        }, 
+        "image": "jdcloud-demo-cn-north-1.jcr.service.jdcloud.com/centos-java:latest", 
+        "az": "", 
+        "instanceType": "g.n2.medium", 
+        "dataVolumes": [
+            ""
+        ], 
+        "charge": {
+            "chargeStartTime": "2018-09-28T02:16:40Z", 
+            "chargeStatus": "normal", 
+            "chargeMode": "postpaid_by_duration"
+        }, 
+        "name": "ymq", 
+        "envs": [
+            ""
+        ], 
+        "hostAliases": [
+            ""
+        ], 
+        "hostname": "", 
+        "workingDir": "", 
+        "primaryNetworkInterface": {
+            "deviceIndex": "", 
+            "autoDelete": "", 
+            "networkInterface": {
+                "description": "", 
+                "secondaryIpCount": "", 
+                "secondaryIpAddresses": "", 
+                "sanityCheck": "", 
+                "primaryIpAddress": "", 
+                "securityGroups": "", 
+                "subnetId": "", 
+                "az": ""
+            }
+        }, 
+        "secret": "", 
+        "command": "", 
+        "rootVolume": {
+            "category": "", 
+            "mountPath": "", 
+            "autoDelete": "", 
+            "cloudDiskId": "", 
+            "fsType": "", 
+            "readOnly": "", 
+            "formatVolume": "", 
+            "cloudDiskSpec": {
+                "diskSizeGB": "", 
+                "charge": {
+                    "chargeDuration": "", 
+                    "chargeUnit": "", 
+                    "chargeMode": ""
+                }, 
+                "name": "", 
+                "snapshotId": "", 
+                "description": "", 
+                "az": "", 
+                "diskType": ""
+            }
+        }
+    }, 
+    "maxCount": ""
+}
