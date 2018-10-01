@@ -1,4 +1,4 @@
-FROM jdcloud-demo-cn-north-1.jcr.service.jdcloud.com/library/centos-java
+FROM jdcloud-demo-cn-north-1.jcr.service.jdcloud.com/library/centos-java:latest
 VOLUME /tmp
 ARG JAR_FILE
 COPY ${JAR_FILE} app.jar
