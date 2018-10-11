@@ -1,0 +1,29 @@
+{
+  "regionId": "cn-north-1",
+  "containerSpec": {
+    "image": "jdcloud-demo-cn-north-1.jcr.service.jdcloud.com/gs-spring-boot:latest",
+    "az": "cn-north-1a",
+    "instanceType": "g.n2.medium",
+    "charge": {
+      "chargeMode": "postpaid_by_duration"
+    },
+    "name": "ymq-nc002",
+    "hostname": "ymq-nc002",
+    "primaryNetworkInterface": {
+      "networkInterface": {
+        "subnetId": "subnet-fjugkwn38o",
+        "az": "cn-north-1a"
+      }
+    },
+    "rootVolume": {
+      "category": "cloud",
+      "cloudDiskSpec": {
+        "az": "cn-north-1a",
+        "name": "ymq-nc002",
+        "diskType": "ssd",
+        "diskSizeGB": 10
+      }
+    }
+  },
+  "maxCount": 1
+}

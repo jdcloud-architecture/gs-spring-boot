@@ -18,7 +18,7 @@ public class Application {
         InetAddress ip;
         try {
             ip = InetAddress.getLocalHost();
-            return "V1.0-003: Hello Docker World from "  + ip.toString() + "\n";
+            return "V1.0-004: Hello Docker World from "  + ip.toString() + "\n";
         } catch (UnknownHostException e) {
 
             return(e.toString());
