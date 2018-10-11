@@ -1,0 +1,9 @@
+{
+    "error": {
+        "status": "RATE_LIMIT", 
+        "message": "Tokens allocated in an hour exceeds limit.", 
+        "code": 429
+    }, 
+    "result": null, 
+    "request_id": "bewdbfhqk6sr4s5046c1nhmh9230dvsq"
+}

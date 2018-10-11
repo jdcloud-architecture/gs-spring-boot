@@ -11,7 +11,7 @@
     "hostname": "ymq-nc002",
     "primaryNetworkInterface": {
       "networkInterface": {
-        "subnetId": "subnet-fjugkwn38o",
+        "subnetId": "subnet-zqsipiz7do",
         "az": "cn-north-1a"
       }
     },
